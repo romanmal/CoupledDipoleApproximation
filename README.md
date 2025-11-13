@@ -1,7 +1,9 @@
-# cda — Coupled Dipole Approximation demos
+# cda — Coupled Dipole Approximation for Light Scattering Particles
 
-Small repository demonstrating 1D and 2D coupled-dipole approximation variants:
-- deterministic 1D
+Implementation of 1D and 2D coupled-dipole approximation based on my MSc thesis in Nanotechnology (2020), photonics. The thesis can be found at https://hdl.handle.net/11250/2778159.
+
+The variants implemented are
+- 1D array of particles with fixed periodicities
 - random-periodicity 1D
 - 2D hexagonal lattice
 - 2D square lattice
@@ -24,5 +26,4 @@ Repository layout
 - tests/ — lightweight pytest checks
 
 Notes
-- 2D direct sums are slow for large Nx,Ny; examples use small grids by default.
-- Mie and Lorentz-Drude scripts (if present) are optional and can be moved into cda/materials/.
+- 2D direct sums are slow for large Nx,Ny; examples use small grids by default
